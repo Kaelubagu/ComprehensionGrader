@@ -47,7 +47,7 @@ int readAlgo(string text) {
     float L = (letterCalc(text) / wordCalc(text)) * 100.0;
     float S = (sentenceCalc(text) / wordCalc(text)) * 100.0;
     float index = (0.0588 * L - 0.296 * S - 15.8) + 0.5;
-    printf("WOWWWWWWWWWWWWWWWWWWWWWW %f", index);
+    //printf("Test: %f", index);
     return (int) index;
 }
 
